@@ -140,12 +140,12 @@ public class MainActivity extends AppCompatActivity {
         // add data
         addData();
 
-JsonElement elem = new JsonElement() {
-    @Override
-    public BigDecimal getAsBigDecimal() {
-        return super.getAsBigDecimal();
-    }
-}
+        JsonElement elem = new JsonElement() {
+            @Override
+            public BigDecimal getAsBigDecimal() {
+                return super.getAsBigDecimal();
+            }
+        };
         try {
             elem = new JsonParser().parse(loadJSONFromAsset());
         } catch (JSONException e) {
