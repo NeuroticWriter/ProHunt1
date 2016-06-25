@@ -57,7 +57,7 @@ public class MainActivity extends Activity {
 
         // configure pie chart
         mChart.setUsePercentValues(true);
-        mChart.setDescription("Smartphones Market Share");
+        mChart.setDescription("Market Share");
 
         //layout piechart
 
