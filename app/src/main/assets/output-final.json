@@ -1,0 +1,427 @@
+{
+  "data":[
+    {
+      "category":"Accounting / Finance",
+      "posted_date":"",
+      "level":"mid",
+      "industry":"Bank, Finance & Insurance",
+      "title":"Chartered Accountant",
+      "location":"Kathmandu",
+      "openings":1
+    },
+    {
+      "category":"Teaching / Education",
+      "posted_date":"2016-06-17",
+      "level":"senior",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Operation Manager",
+      "location":"Bhaktapur",
+      "openings":1
+    },
+    {
+      "category":"Sales / Public Relations",
+      "posted_date":"",
+      "level":"",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Tele-Marketing / Call Representatives (Female Only)",
+      "location":"",
+      "openings":1
+    },
+    {
+      "category":"Sales / Public Relations",
+      "posted_date":"2016-06-14",
+      "level":"mid",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Marketing Executive",
+      "location":"Kathmandu",
+      "openings":3
+    },
+    {
+      "category":"Sales / Public Relations",
+      "posted_date":"2016-06-23",
+      "level":"mid",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Sales Executive - Showroom",
+      "location":"Kathmandu",
+      "openings":4
+    },
+    {
+      "category":"Sales / Public Relations",
+      "posted_date":"",
+      "level":"",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Business Development Officer \u2013 ACL Services",
+      "location":"",
+      "openings":1
+    },
+    {
+      "category":"Sales / Public Relations",
+      "posted_date":"",
+      "level":"",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Enterprise Sales Executive",
+      "location":"",
+      "openings":1
+    },
+    {
+      "category":"Marketing / Advertising / Customer Service",
+      "posted_date":"2016-06-07",
+      "level":"mid",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Marketing Officer",
+      "location":"Kathmandu",
+      "openings":5
+    },
+    {
+      "category":"Marketing / Advertising / Customer Service",
+      "posted_date":"2016-06-19",
+      "level":"entry",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Marketing",
+      "location":"Kathmandu",
+      "openings":2
+    },
+    {
+      "category":"Marketing / Advertising / Customer Service",
+      "posted_date":"",
+      "level":"",
+      "industry":"Bank, Finance & Insurance",
+      "title":"Marketing Officer",
+      "location":"",
+      "openings":1
+    },
+    {
+      "category":"Journalism / Editor / Media",
+      "posted_date":"",
+      "level":"",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Academic Writer ( Management - 2, Science - 2)",
+      "location":"",
+      "openings":1
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"",
+      "level":"mid",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Development Lead",
+      "location":"Kathmandu",
+      "openings":1
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"2016-06-15",
+      "level":"mid",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Software Developer & UX Designer",
+      "location":"Kathmandu",
+      "openings":10
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"2016-06-23",
+      "level":"mid",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Mean Stack Developer",
+      "location":"Old Baneshwor, Kathmandu",
+      "openings":6
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"",
+      "level":"mid",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Software Developer",
+      "location":"Kathmandu",
+      "openings":1
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"",
+      "level":"",
+      "industry":"IT, Software & Telecommunication",
+      "title":"C#.NET Developer (Mid Level)",
+      "location":"",
+      "openings":1
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"2016-06-12",
+      "level":"entry",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Node.js Developer",
+      "location":"Kathmandu",
+      "openings":3
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"2016-06-13",
+      "level":"senior",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Frontend Developer",
+      "location":"Kathmandu",
+      "openings":2
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"2016-06-10",
+      "level":"senior",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Sr. PHP Programmer",
+      "location":"Sanepa, Lalitpur",
+      "openings":1
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"2016-06-17",
+      "level":"mid",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Sr. Developer - BI",
+      "location":"Lalitpur",
+      "openings":3
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"2016-06-23",
+      "level":"mid",
+      "industry":"IT, Software & Telecommunication",
+      "title":"WordPress Developer",
+      "location":"Lalitpur",
+      "openings":2
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"2016-06-14",
+      "level":"mid",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Technical Support - Systems",
+      "location":"Kathmandu",
+      "openings":1
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"2016-06-21",
+      "level":"entry",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Web Developer",
+      "location":"Satdobato, Lalitpur",
+      "openings":2
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"",
+      "level":"",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Java Engineer/ Senior Java Engineer",
+      "location":"",
+      "openings":1
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"",
+      "level":"",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Sr.ASP.Net Developer",
+      "location":"",
+      "openings":1
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"",
+      "level":"",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Sr. Web Designer",
+      "location":"",
+      "openings":1
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"",
+      "level":"",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Java Engineer/Developer",
+      "location":"",
+      "openings":1
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"",
+      "level":"",
+      "industry":"IT, Software & Telecommunication",
+      "title":"PHP/ Web Developer",
+      "location":"",
+      "openings":1
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"",
+      "level":"",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Web Designers/Web Developer",
+      "location":"",
+      "openings":1
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"",
+      "level":"",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Sr. Wordpress Developer",
+      "location":"",
+      "openings":1
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"",
+      "level":"",
+      "industry":"IT, Software & Telecommunication",
+      "title":"PHP Programmer",
+      "location":"",
+      "openings":1
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"",
+      "level":"",
+      "industry":"IT, Software & Telecommunication",
+      "title":"WordPress Programmer",
+      "location":"",
+      "openings":1
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"",
+      "level":"",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Writer",
+      "location":"",
+      "openings":1
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"",
+      "level":"",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Senior PHP Developer",
+      "location":"",
+      "openings":1
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"",
+      "level":"",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Web Developer",
+      "location":"",
+      "openings":1
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"",
+      "level":"",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Project Manager",
+      "location":"",
+      "openings":1
+    },
+    {
+      "category":"IT & Telecommunication",
+      "posted_date":"",
+      "level":"",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Computer Graduate Trainee",
+      "location":"",
+      "openings":1
+    },
+    {
+      "category":"Creative / Graphics / Designing",
+      "posted_date":"2016-06-17",
+      "level":"entry",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Content Uploader - Data Entry Intern",
+      "location":"Narayanchaur, Naxal, Kathmandu",
+      "openings":1
+    },
+    {
+      "category":"Creative / Graphics / Designing",
+      "posted_date":"2016-06-21",
+      "level":"entry",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Web Designer",
+      "location":"Satdobato, Lalitpur",
+      "openings":5
+    },
+    {
+      "category":"Banking / Insurance /Financial Services",
+      "posted_date":"",
+      "level":"senior",
+      "industry":"Bank, Finance & Insurance",
+      "title":"Regional Managers",
+      "location":"Kathmandu",
+      "openings":1
+    },
+    {
+      "category":"Banking / Insurance /Financial Services",
+      "posted_date":"",
+      "level":"senior",
+      "industry":"Bank, Finance & Insurance",
+      "title":"Branch In Charge",
+      "location":"Kathmandu",
+      "openings":1
+    },
+    {
+      "category":"Banking / Insurance /Financial Services",
+      "posted_date":"",
+      "level":"mid",
+      "industry":"Bank, Finance & Insurance",
+      "title":"Branch Manager",
+      "location":"Kathmandu",
+      "openings":1
+    },
+    {
+      "category":"Banking / Insurance /Financial Services",
+      "posted_date":"",
+      "level":"mid",
+      "industry":"Bank, Finance & Insurance",
+      "title":"Legal Officer",
+      "location":"Kathmandu",
+      "openings":1
+    },
+    {
+      "category":"Banking / Insurance /Financial Services",
+      "posted_date":"",
+      "level":"mid",
+      "industry":"Bank, Finance & Insurance",
+      "title":"For Legal Department",
+      "location":"Kathmandu",
+      "openings":1
+    },
+    {
+      "category":"Banking / Insurance /Financial Services",
+      "posted_date":"",
+      "level":"entry",
+      "industry":"Bank, Finance & Insurance",
+      "title":"Assistants",
+      "location":"Kathmandu",
+      "openings":8
+    },
+    {
+      "category":"Banking / Insurance /Financial Services",
+      "posted_date":"",
+      "level":"",
+      "industry":"Bank, Finance & Insurance",
+      "title":"Analyst",
+      "location":"",
+      "openings":1
+    },
+    {
+      "category":"Architecture / Interior Designing",
+      "posted_date":"",
+      "level":"",
+      "industry":"IT, Software & Telecommunication",
+      "title":"Photo editors",
+      "location":"",
+      "openings":1
+    }
+  ]
+}
