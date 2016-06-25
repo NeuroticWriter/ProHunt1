@@ -31,6 +31,10 @@ public class MyJsonParser {
     public MyJsonParser(Context context){
         this.context = context;
     }
+    public MyJsonParser(Context context, String jsonData){
+        this.context = context;
+        this.jsonData = jsonData;
+    }
 
 
 
@@ -74,6 +78,8 @@ public class MyJsonParser {
         }
         return map;
     }
+
+
 
     public String loadJSONFromAsset(String path) {
         String json = null;

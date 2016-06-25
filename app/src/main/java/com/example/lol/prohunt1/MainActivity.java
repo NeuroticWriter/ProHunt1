@@ -1,6 +1,11 @@
 package com.example.lol.prohunt1;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
 
 import com.example.lol.prohunt1.R;
 import com.github.mikephil.charting.charts.PieChart;
@@ -19,35 +24,75 @@ import com.github.mikephil.charting.utils.ColorTemplate;
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 public class MainActivity extends Activity {
 
-    private RelativeLayout mainLayout;
+    private LinearLayout mainLayout;
     private PieChart mChart;
+    private String jsonResponse;
+    private MyJsonParser jsonParser= new MyJsonParser(getApplicationContext());
+
+
     // we're going to display pie chart for Job martket shares
     private float[] yData = { 5, 10, 15, 30, 40 };
     private String[] xData = { "Art", "Mechanical", "IT", "Medical", "Bank" };
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mainLayout = (RelativeLayout) findViewById(R.id.mainLayout);
+        mainLayout = (LinearLayout) findViewById(R.id.main);
+        Set<String> industry = new HashSet<>();
+        Map<String, Float> map = new HashMap<>();
 
-        //json array
-        JSONArray category = jsonResponse.getJSONArray("category");
-        for (int i=0; i<category.length(); i++) {
-            JSONObject actor = category.getJSONObject(i);
-            String posted_date = actor.getString("posted_date");
-            allNames.add(posted_date);
+        // parse json data
+        try {
+            String jsonData = jsonParser.loadJSONFromAsset("output-final.json");
+            JSONObject jsonObject = new JSONObject(jsonData);
+            JSONArray jsonArray = jsonObject.getJSONArray("data");
+            for (int i = 0; i<jsonArray.length();i++){
+                JSONObject industryObj = jsonArray.getJSONObject(i);
+                String name = industryObj.getString("industry");
+                industry.add(name);
+            }
+
+            Iterator iterator = industry.iterator();
+            int i=0;
+            while(iterator.hasNext()){
+                String ind = (String)iterator.next();
+                float openingNumber=0;
+                for(int j = 0; j<jsonArray.length(); j++){
+                    JSONObject openings = jsonArray.getJSONObject(j);
+                    String name = openings.getString("industry");
+                    if(name.equals(ind)){
+//                        Log.d("opening", "heyyyy");
+                        openingNumber += openings.getInt("openings");
+                    }
+                    map.put(ind, openingNumber);
+                }
+                i++;
+            }
+            Iterator it = map.entrySet().iterator();
+            while(it.hasNext()){
+                Map.Entry pair = (Map.Entry)it.next();
+                //System.out.println("category: "+pair.getKey()+"  value: "+pair.getValue());
+                Log.d("ta", pair.getValue().toString());
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
 
 
         mChart = new PieChart(this);
@@ -64,8 +109,6 @@ public class MainActivity extends Activity {
         ViewGroup.LayoutParams params = mChart.getLayoutParams();
         params.height= ViewGroup.LayoutParams.MATCH_PARENT;
         params.width=ViewGroup.LayoutParams.MATCH_PARENT;
-
-
 
         // enable hole and configure
         mChart.setDrawHoleEnabled(true);
