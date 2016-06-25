@@ -11,14 +11,5 @@
     android:orientation="horizontal"
     android:id="@+id/main">
 
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Category"
-        android:id="@+id/category"
-        android:layout_gravity="center_vertical"
-        android:gravity="center_vertical"
-        android:onClick="gotoActivity"/>
 </LinearLayout>
 

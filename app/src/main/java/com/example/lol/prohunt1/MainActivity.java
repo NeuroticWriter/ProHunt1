@@ -41,7 +41,7 @@ public class MainActivity extends Activity {
     private LinearLayout mainLayout;
     private PieChart mChart;
     private String jsonResponse;
-    private MyJsonParser jsonParser= new MyJsonParser(getApplicationContext());
+    public MyJsonParser jsonParser;
 
 
     // we're going to display pie chart for Job martket shares
@@ -56,8 +56,9 @@ public class MainActivity extends Activity {
         mainLayout = (LinearLayout) findViewById(R.id.main);
         Set<String> industry = new HashSet<>();
         Map<String, Float> map = new HashMap<>();
+        jsonParser = new MyJsonParser(this.getApplicationContext());
 
-        // parse json data
+        // parse json data  CONTEXT
         try {
             String jsonData = jsonParser.loadJSONFromAsset("output-final.json");
             JSONObject jsonObject = new JSONObject(jsonData);
